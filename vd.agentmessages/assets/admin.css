@@ -1,0 +1,93 @@
+.top-buttons .adm-detail-content-btns {
+    padding: 12px 12px 0 12px;
+}
+.adm-detail-content {
+    padding: 12px 12px 0 12px;
+}
+.agent-edit-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    background-color: #f5f9f9;
+}
+.agent-edit-block .info-block,
+.info-block .messages-block, .agent-btns {
+    display: flex;
+    flex-direction: column;
+}
+.agent-edit-block .form-block {
+    display: flex;
+    flex-direction: column;
+}
+.agent-edit-block .form-block {
+    width: 80%;
+}
+.agent-edit-block .info-block {
+    width: 20%;
+}
+.messages-block {
+    padding: 12px 18px 0;
+}
+.agent-edit-block .form-block .field-block {
+    display: flex;
+    flex-direction: row;
+}
+.form-block .adm-detail-content-cell-l {
+    width: 20%;
+}
+.form-block .adm-detail-content-cell-r {
+    width: 80%;
+}
+.form-block .adm-detail-content-cell-l .agent-field,
+.form-block .adm-detail-content-cell-r .agent-field {
+    margin: 4px 0 4px 0;
+}
+.adm-detail-content-cell-l .agent-field {
+    min-height: 25px !important;
+    padding: 1px;
+    font-weight: bold;
+}
+.field-required {
+    color: red;
+    vertical-align: middle;
+}
+.agent-field input,
+.agent-field textarea {
+    width: 90%;
+    box-sizing: border-box;
+}
+.agent-field input {
+    min-height: 25px !important;
+}
+.agent-field textarea {
+    min-height: 100px !important;
+    resize: vertical;
+    padding: 5px !important;
+}
+.agent-field .user-selector-container {
+    width: 90%;
+    box-sizing: border-box;
+}
+.agent-field input.w-200 {
+    width: 200px;
+}
+.buttons-block {
+    background-color: #f5f9f9;
+}
+.agent-btns {
+    width: 60%;
+}
+.agent-btns input {
+    margin: 4px 0 4px 0 !important;
+}
+.msg-red {
+    color: red;
+}
+.msg-green {
+    color: green;
+}
+.v-time-selector .bx-calendar-header,
+.v-time-selector .bx-calendar-name-day-wrap,
+.v-time-selector .bx-calendar-cell-block {
+    display: none;
+}
