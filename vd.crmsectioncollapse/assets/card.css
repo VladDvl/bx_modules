@@ -1,0 +1,25 @@
+div.ui-entity-editor-section-content.section-collapse, .hidden {
+    display: none !important;
+}
+div.ui-entity-editor-header-actions {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2px 0 10px;
+    width: 20px;
+    height: 20px;
+}
+.section-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    color: #1058d0;
+    font-size: 20px;
+    font-weight: bold;
+}
